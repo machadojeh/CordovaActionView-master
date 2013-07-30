@@ -21,6 +21,6 @@
     <org.apache.cordova.CordovaWebView
         android:id="@+id/mainView"
         android:layout_width="fill_parent"
-        android:layout_height="276dp" />
+        android:layout_height="match_parent" />
 
 </FrameLayout>

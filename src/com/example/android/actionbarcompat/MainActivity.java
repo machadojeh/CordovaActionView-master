@@ -55,8 +55,8 @@ public class MainActivity extends ActionBarActivity implements CordovaInterface 
 
 		mainView = (CordovaWebView) findViewById(R.id.mainView);
 		//mainView.loadUrl("http://hugonomura.github.io/");
-		mainView.loadUrl("https://www.google.com.br");
-		//mainView.loadUrl("file:///android_asset/www/index.html");
+		//mainView.loadUrl("https://www.google.com.br");
+		mainView.loadUrl("file:///android_asset/www/index.html");
 		
 		/*
 		 * findViewById(R.id.toggle_title).setOnClickListener(new
